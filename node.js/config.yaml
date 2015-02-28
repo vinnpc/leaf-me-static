@@ -1,0 +1,8 @@
+blog_title: Leaf Me Static
+bio: just a simple static site generator
+
+path:
+    page: page
+    post: post
+    data: data
+    tmpl: src

@@ -1,0 +1,368 @@
+/* General  */
+
+body {
+    margin: 0;
+    font: 16px/1.5 Rambla, "Noto Sans T Chinese", "Noto Sans S Chinese", "Helvetica Neue", "Hiragino Sans GB",  "Microsoft Yahei", Sans-Serif;
+    color: #333;
+}
+header, nav, footer, article, section {
+    display: block;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre, blockquote, table {
+    margin-top: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+}
+a,
+a:active {
+    color: #333;
+    text-decoration: none;
+}
+strong, b {
+    color: #333;
+}
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+}
+table p {
+    margin: 0;
+}
+th {
+    background: #fafafa;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em 1em;
+}
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 0 0 1.5em 0;
+}
+p,
+pre,
+pre[class*="language-"],
+blockquote,
+table {
+    margin: 0 0 1.5em 0;
+}
+p code,
+li code {
+    padding: 2px 4px;
+    background-color: #f0f0f0;
+    border: 1px solid #E6E6E6;
+    color: #000;
+    white-space: nowrap;
+}
+pre,
+code {
+    font-family: "Ubuntu Mono", Monaco, Menlo, Consolas, monospace;
+}
+.article pre {
+    padding: 1em;
+    font-size: 0.875em;
+    background: #f0f0f0;
+}
+
+/* Common Class */
+
+.icon {
+    color: #444;
+}
+.entypo {
+    font-family: "Entypo";
+}
+.entypo_social {
+    font-family: "Entypo Social";
+}
+.clear:before, .clear:after {
+    content: " ";
+    display: table;
+}
+.clear:after {
+    clear: both;
+}
+
+/* Layout */
+
+#container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+#header {
+    padding: 4em 0;
+    text-align: center;
+}
+#header a {
+    color: #333;
+}
+.blog_avatar {
+    text-align: center;
+}
+.blog_avatar a {
+    margin-left: 0.1em;
+    font-size: 6em;
+    line-height: 1;
+    font-weight: 300;
+}
+
+/* sidebar */
+
+#sidebar {
+    float: right;
+    width: 24%;
+    padding: 1em;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: #666;
+}
+.bio {
+    padding-left: 1.2em;
+    margin-bottom: 2.2em;
+    border-left: 2px solid #ddd;
+    font-style: italic;
+}
+.nav a {
+    position: relative;
+    display: block;
+    height: 2.5em;
+    padding: 0 1em;
+    color: #666;
+    text-indent: 2em;
+    font-weight: 300;
+    line-height: 2.5em;
+    text-transform: uppercase;
+}
+.nav a .icon {
+    position: relative;
+    top: 0.06em;
+    display: inline-block;
+    width: 0.5em;
+    margin-right: 0.3em;
+    font-size: 2em;
+    text-align: center;
+    text-indent: 0;
+}
+.nav a:after {
+    position: absolute;
+    left: 20%;
+    bottom: 0;
+    display: block;
+    content: " ";
+    width: 60%;
+    height: 1px;
+    background: transparent;
+    
+}
+.nav a:hover {
+    color: #111;
+}
+.nav a:hover:after {
+    background: #ccc;
+}
+.separator {
+    font-size: 1.5em;
+    text-align: center;
+}
+/* Content */
+
+#content {
+    margin: 0 24% 0 1em;
+    font-weight: 300;
+}
+
+/* Posts */
+#content .title {
+    font-size: 2em;
+    font-weight: 600;
+}
+.posts li {
+    padding: 1em;
+}
+.posts .title a {
+    display: inline-block;
+    color: #444;
+    border-bottom: 2px solid transparent;
+}
+.posts .title a:hover {
+    border-bottom-color: #444;
+}
+
+/* Meta */
+.meta div {
+    display: inline-block;
+    color: #888;
+    font-size: 0.937em;
+    font-weight: 300;
+}
+.meta .icon {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    margin-right: 0.25em;
+    color: #888;
+    font-size: 2em;
+}
+
+/* Single Post */
+
+.post .title {
+    display: inline-block;
+    margin-bottom: 1em;
+    border-bottom: 2px solid #444;
+}
+.post .meta {
+    margin-bottom: 1.5em;
+}
+
+/* article */
+.article {
+    box-sizing: border-box;
+    color: #555;
+    font-size: 1.125em;
+}
+.article a {
+/*    font-weight: 600;*/
+    text-decoration: underline;
+}
+.article img {
+    display: block;
+    margin:0 auto 1.5em;
+    max-width: 100%;
+}
+.article table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.article ul,
+.article ol {
+    padding-left: 1.5em;
+    margin: 0 0 1.5em 2em;
+}
+.article ul ul,
+.article ol ol{
+    margin-bottom: 0;
+}
+.article ul {
+    list-style: disc;
+}
+.article ol {
+    list-style: decimal;
+}
+.article blockquote {
+    position: relative;
+    margin-left: 2.5em;
+    font-style: italic;
+}
+.article blockquote:before {
+    position: absolute;
+    left: -0.8em;
+    top: -0.3em;
+    display: block;
+    content: "“";
+    font-size: 3em;
+    color: #ccc;
+    font-style: italic;
+}
+.article blockquote p {
+    margin: 0;
+}
+
+/* Page */
+
+.page .article {
+    float: none;
+    clear: left;
+    width: auto;
+    padding: 0;
+}
+.page .title {
+    display: inline-block;
+    float: left;
+    margin: 0 0 1.5em;
+    border-bottom: 2px solid #444;
+    font-size: 2.5em;
+    font-weight: 300;
+}
+
+/* footer */
+
+#footer {
+    margin: 2em 0 0;
+    padding: 4em 2em;
+    border-top: 1px dotted #ddd;
+    color: #888;
+    font-weight: 300;
+    font-size: 1em;
+    text-align: center;
+}
+#footer a {
+    color: #666;
+}
+#footer a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 970px) {
+    #header {
+        padding: 1em 0;
+    }
+    #sidebar {
+       float: none;
+       width: auto;
+       padding: 1em 1em 4em;
+    }
+    .bio {
+        padding: 0 1em;
+        border-right: 2px solid #ddd;
+        text-align: center;
+    }
+    .nav {
+        text-align: center;
+    }
+    .nav li {
+        display: inline-block;
+    }
+    .nav a {
+        text-indent: 0;
+    }
+    .nav a:after {
+        display: none;
+    }
+    .nav .separator {
+        display: block;
+        line-height: 0.5em;
+    }
+    #content {
+        border-top: 1px dotted #ddd;
+        margin: 0 1em;
+        padding-top: 3em;
+    }
+    .posts li {
+        padding: 0 1em;
+    }
+    .post,
+    .page {
+        text-align: center;
+    }
+    .post .article,
+    .page .article {
+        text-align: left;
+    }
+    #footer {
+        margin: 1em 1em 0 1em;
+        padding: 2em 1em;
+    }
+}

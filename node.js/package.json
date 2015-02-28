@@ -1,0 +1,10 @@
+{
+  "name": "leaf-me-static",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "js-yaml": "^3.2.7",
+    "showdown": "^0.3.1",
+    "swig": "^1.4.2"
+  }
+}

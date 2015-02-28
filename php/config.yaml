@@ -1,0 +1,9 @@
+blog_title: Leaf Me Static
+bio: just a simple static site generator
+
+timezone: Asia/Hong_Kong
+
+path:
+    page: page
+    post: post
+    data: data
