@@ -15,3 +15,7 @@ The usage is quite simple:
 1. Start writing
 1. Run `./leaf.js` / `./leaf.php` to generate `index.html` and `json` files in folder `data`
 1. All done. Publish it to the cloud
+
+Demo:
+[http://vinnpc.github.io/leaf-me-static/node.js/](http://vinnpc.github.io/leaf-me-static/node.js/)
+[http://vinnpc.github.io/leaf-me-static/php/](http://vinnpc.github.io/leaf-me-static/php/)
